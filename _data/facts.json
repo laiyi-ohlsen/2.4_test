@@ -1,0 +1,5 @@
+[
+  { "text": "I love pizza", "important": true },
+  { "text": "My favorite color is blue", "important": false },
+  { "text": "I’m learning Eleventy!", "important": true }
+]

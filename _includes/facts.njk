@@ -1,0 +1,9 @@
+<ul>
+  {% for fact in facts %}
+    {% if fact.important %}
+        <li>⭐️ {{ fact.text }}</li>
+    {% else %}
+        <li>{{ fact.text }}</li>
+    {% endif %}
+  {% endfor %}
+</ul>
